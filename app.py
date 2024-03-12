@@ -132,9 +132,9 @@ class MyTableWidget(QWidget):
         self.axes.set_xlabel('X')
         self.axes.set_ylabel('Y')
         self.axes.set_zlabel('Z')
-        self.axes.tick_params(axis='x', labelsize=6)  # Уменьшаем размер меток по оси X
-        self.axes.tick_params(axis='y', labelsize=6)  # Уменьшаем размер меток по оси Y
-        self.axes.tick_params(axis='z', labelsize=6)  # Уменьшаем размер меток по оси Z
+        self.axes.tick_params(axis='x', labelsize=6)  
+        self.axes.tick_params(axis='y', labelsize=6)  
+        self.axes.tick_params(axis='z', labelsize=6) 
 
         self.lab1.setLayout(self.lab1.layout)
         self.layout.addWidget(self.tabs)
